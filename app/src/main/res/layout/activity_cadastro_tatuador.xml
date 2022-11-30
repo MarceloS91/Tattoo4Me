@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastro_tatuador"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="147dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="660dp"
+        android:text="Tatuador:"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="357dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="600dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nome:"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="357dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="548dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sobrenome:"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="357dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="496dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CPF:"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="357dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="444dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CEP:"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="358dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="392dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Logradouro:"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="356dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="336dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Número:"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="355dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Estado:"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="356dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="280dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Complemento:"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="355dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/arredondar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cidade:"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="161dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="104dp"
+        android:text="Vacina hepatite B"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
